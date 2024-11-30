@@ -36,7 +36,7 @@ async function getResponse(message) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Authorization": `Bearer YOUR_API_KEY`, // Masukkan API Key di sini
+        "Authorization": `Bearer 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`, // Masukkan API Key di sini
       },
       body: JSON.stringify({
         model: "text-davinci-003",
